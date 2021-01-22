@@ -1,4 +1,4 @@
-module github.com/weppos/publicsuffix-go
+module github.com/ducbo/publicsuffix-go
 
 go 1.11
 
