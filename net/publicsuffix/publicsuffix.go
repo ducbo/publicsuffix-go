@@ -1,9 +1,9 @@
 // Package publicsuffix is a drop-in replacement for the golang.org/x/net/publicsuffix
-// based on the weppos/publicsuffix package.
+// based on the ducbo/publicsuffix package.
 package publicsuffix
 
 import (
-	psl "github.com/weppos/publicsuffix-go/publicsuffix"
+	psl "github.com/ducbo/publicsuffix-go/publicsuffix"
 )
 
 // PublicSuffix returns the public suffix of the domain
