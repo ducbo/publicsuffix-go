@@ -111,7 +111,7 @@ func (g *Generator) generate() ([]byte, error) {
 	sha, datetime := extractHeadInfo()
 
 	g.log("Downloading PSL %s...\n", sha[:6])
-	resp, err := http.Get(fmt.Sprintf("https://raw.githubusercontent.com/publicsuffix/list/%s/public_suffix_list.dat", sha))
+	resp, err := http.Get(fmt.Sprintf("https://github.com/ducbo/list/raw/master/public_suffix_list.dat", sha))
 	if err != nil {
 		return nil, err
 	}
