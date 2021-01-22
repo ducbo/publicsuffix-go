@@ -18,7 +18,7 @@ import (
 	"time"
 
 	"github.com/google/go-github/github"
-	"github.com/weppos/publicsuffix-go/publicsuffix"
+	"github.com/ducbo/publicsuffix-go/publicsuffix"
 )
 
 const (
